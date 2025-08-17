@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 20px;
+}
+
+header {
+    background-color: slategray;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-weight: bold;
+    word-spacing: 3px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background-color: #ff4500;
+    padding: 10px;
+    z-index: 10;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    width: 120px;
+    border: 2px solid black;
+    cursor: pointer;
+    text-decoration: none;
+    color: navy;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+nav a:hover {
+    color: red;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.activity-card {
+    width: 30%;
+    background-color: rgb(70, 70, 70);
+    padding: 10px;
+    position: relative;
+}
+
+.activity-card img {
+    width: 100%;
+    height: auto;
+    max-height: 250px;
+}
+
+.activity-card h2 {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 1.5px;
+}
+
+.activity-card p {
+    line-height: 1.6;
+    text-align: left;
+}
+
+.activity-card span {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 15;
+    background-color: orange;
+    padding: 2px 5px;
+}
+
+.activity-card button {
+    cursor: pointer;
+    border: 2px solid black;
+    padding: 8px;
+    color: black;
+}
+
+.activity-card:nth-child(1) button {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.activity-card:nth-child(2) button {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.activity-card:nth-child(3) button {
+    background-color: #333;
+    color: white;
+}
+
+button:hover:not(:disabled) {
+    background-color: hsla(120, 60%, 40%, 0.9);
+}
+
+button:active:not(:disabled) {
+    transform: scale(0.9);
+}
+
+#signup-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 20;
+}
+
+#signup-btn button {
+    background-color: hsla(120, 60%, 40%, 0.9);
+    border: 2px solid black;
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+#signup-btn button:hover {
+    background-color: hsl(120, 60%, 30%);
+}
+
+#signup-btn button:active {
+    transform: scale(0.9);
+}
+
+footer {
+    padding: 20px;
+}
+
+footer p {
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
+
+.activity-card a, #signup-btn a {
+    text-decoration: none;
+}
