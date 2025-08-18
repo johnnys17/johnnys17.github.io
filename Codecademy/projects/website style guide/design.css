@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.pt-sans-regular {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.exo-2-uniquifier {
+  font-family: "Exo 2", sans-serif;
+  font-style: normal;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #F5F6F5;
+    padding: 25px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: "PT Sans";
+    color: #1A3C4F;
+    padding: 30px;
+}
+
+h2 {
+    font-family: "Exo 2";
+    font-size: 35px;
+    color: #1A3C4F;
+    padding: 10px;
+}
+
+p {
+    color: #2D3748;
+}
+
+.color-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.color-panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 24%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 150px;
+    font-size: 25px;
+}
+
+.soft-teal {
+    background-color: #4A919E;
+}
+
+.warm-coral {
+    background-color: #F28A7B
+}
+
+.muted-sage {
+    background-color: #A8B5A2;
+}
+
+.golden-yellow {
+    background-color: #F4C430;
+}
+
+.section-divider {
+    border: none;
+    height: 3.5px;
+    background-color: #1A3C4F;
+    width: 100%;
+    margin: 30px 0;
+}
+
+.font-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.font-panel {
+    flex: 1;
+    padding:15px;
+    text-align: left;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.font-panel p:nth-child(1) {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.font-panel p:nth-child(2) {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.font-panel p:nth-child(3) {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.font-panel p:nth-child(4) {
+    font-size: 20px;
+    font-style: italic;
+}
+
+.text-container {
+    padding-top: 30px;
+}
+
+.text-panel {
+    padding: 10px;
+    line-height: 30px;
+}
+
+.text-panel h1 {
+    text-align: left;
+    font-size: 60px;
+    font-weight: 700;
+    font-family: "PT Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.text-panel h2 {
+    text-align: left;
+    font-size: 35px;
+    font-weight: 500;
+    font-family: "Exo 2", sans-serif;
+    margin: 10px 0;
+    padding: 0;
+}
+
+.text-panel p {
+  text-align: left;
+  font-size: 16px;
+  margin: 10px 0;
+  padding: 0;
+  font-weight: 400;
+}
+
+.text-panel ul {
+    padding-left: 40px;
+    margin: 20px 0;
+}
+
+.text-panel li {
+    font-size: 18px;
+    line-height: 30px;
+}
